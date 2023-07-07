@@ -10,7 +10,12 @@ export class LoadingScene extends Scene {
     this.load.baseURL = "assets/";
     // key: 'aardvark'
     // path from baseURL to file: 'sprites/aardvark.png'
-    this.load.image("aardvark", "sprites/aardvark.png");
+    this.load.image("astronaut", "sprites/astronaut.png");
+    this.load.atlas(
+      "a-astronaut",
+      "spritesheets/a-astronaut.png",
+      "spritesheets/a-astronaut.json"
+    );
   }
   create(): void {
     this.scene.start("level-1-scene");

@@ -33,13 +33,6 @@ export class Actor extends Physics.Arcade.Sprite {
   public getHPValue(): number {
     return this.hp;
   }
-  protected checkFlip(): void {
-    if (this.body && this.body.velocity.x < 0) {
-      this.scaleX = -1;
-    } else {
-      this.scaleX = 1;
-    }
-  }
   protected getBody(): Physics.Arcade.Body {
     return this.body as Physics.Arcade.Body;
   }
