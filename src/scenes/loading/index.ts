@@ -8,8 +8,6 @@ export class LoadingScene extends Scene {
 
   preload(): void {
     this.load.baseURL = "assets/";
-    // key: 'aardvark'
-    // path from baseURL to file: 'sprites/aardvark.png'
     this.load.image("astronaut", "sprites/astronaut.png");
     this.load.atlas(
       "a-astronaut",
