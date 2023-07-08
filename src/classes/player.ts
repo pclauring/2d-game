@@ -12,8 +12,7 @@ export class Player extends Actor {
     this.keyS = this.scene?.input?.keyboard?.addKey("S");
     this.keyD = this.scene?.input?.keyboard?.addKey("D");
     // PHYSICS
-    this.getBody().setSize(30, 30);
-    this.getBody().setOffset(8, 0);
+    this.getBody().setSize(32, 64, true);
     // ANIMATIONS
     this.initAnimations();
   }
@@ -28,7 +27,7 @@ export class Player extends Actor {
     }
     if (this.keyA?.isDown) {
       this.body.velocity.x = -110;
-      this.getBody().setOffset(48, 15);
+      //this.getBody().setOffset(48, 15);
       this.anims.play("left-walk", true);
     }
     if (this.keyS?.isDown) {
@@ -37,7 +36,7 @@ export class Player extends Actor {
     }
     if (this.keyD?.isDown) {
       this.body.velocity.x = 110;
-      this.getBody().setOffset(15, 15);
+      //dthis.getBody().setOffset(15, 15);
       this.anims.play("right-walk", true);
     }
   }

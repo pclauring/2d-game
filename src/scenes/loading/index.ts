@@ -16,6 +16,14 @@ export class LoadingScene extends Scene {
       "spritesheets/a-astronaut.png",
       "spritesheets/a-astronaut.json"
     );
+    this.load.image({
+      key: "martian-landscape",
+      url: "tilemaps/tiles/martian-landscape.png",
+    });
+    this.load.tilemapTiledJSON(
+      "martian-landscape",
+      "tilemaps/json/martian-landscape.json"
+    );
   }
   create(): void {
     this.scene.start("level-1-scene");
