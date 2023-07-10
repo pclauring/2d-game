@@ -16,8 +16,8 @@ export class LoadingScene extends Scene {
     );
     this.load.atlas(
       "astronaut-atlas",
-      "spritesheets/astronaut-8-direction.png",
-      "spritesheets/astronaut-8-direction.json"
+      "spritesheets/astronaut-atlas.png",
+      "spritesheets/astronaut-atlas.json"
     );
     this.load.image({
       key: "martian-landscape",
