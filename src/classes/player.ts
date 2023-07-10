@@ -22,45 +22,42 @@ export class Player extends Actor {
     if (!this.body) {
       return;
     }
-    if (this.keyW?.isDown) {
-      this.body.velocity.y = -110;
-    }
-    if (this.keyA?.isDown) {
-      this.body.velocity.x = -110;
-    }
-    if (this.keyA?.isDown && this.keyS?.isDown) {
-      this.body.velocity.x = -110;
-    }
-    if (this.keyS?.isDown) {
-      this.body.velocity.y = 110;
-    }
-    if (this.keyD?.isDown) {
-      this.body.velocity.x = 110;
-    }
 
     if (this.keyW?.isDown && this.keyD?.isDown) {
       this.anims.play("back-right", true);
+      this.body.velocity.y = -78;
+      this.body.velocity.x = 78;
     }
     if (this.keyW?.isDown && this.keyA?.isDown) {
       this.anims.play("back-left", true);
+      this.body.velocity.y = -78;
+      this.body.velocity.x = -78;
     }
     if (this.keyW?.isDown && !this.keyA?.isDown && !this.keyD?.isDown) {
       this.anims.play("back-walk", true);
+      this.body.velocity.y = -110;
     }
     if (this.keyS?.isDown && this.keyD?.isDown) {
       this.anims.play("front-right", true);
+      this.body.velocity.y = 78;
+      this.body.velocity.x = 78;
     }
     if (this.keyS?.isDown && this.keyA?.isDown) {
       this.anims.play("front-left", true);
+      this.body.velocity.y = 78;
+      this.body.velocity.x = -78;
     }
     if (this.keyS?.isDown && !this.keyA?.isDown && !this.keyD?.isDown) {
       this.anims.play("front-walk", true);
+      this.body.velocity.y = 110;
     }
     if (this.keyD?.isDown && !this.keyW?.isDown && !this.keyS?.isDown) {
       this.anims.play("right-walk", true);
+      this.body.velocity.x = 110;
     }
     if (this.keyA?.isDown && !this.keyW?.isDown && !this.keyS?.isDown) {
       this.anims.play("left-walk", true);
+      this.body.velocity.x = -110;
     }
   }
 
