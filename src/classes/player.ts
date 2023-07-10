@@ -12,7 +12,8 @@ export class Player extends Actor {
     this.keyS = this.scene?.input?.keyboard?.addKey("S");
     this.keyD = this.scene?.input?.keyboard?.addKey("D");
     // PHYSICS
-    this.getBody().setSize(32, 64, true);
+    this.getBody().setSize(32, 32, true);
+    //this.setDebug(true, false, 1);
     // ANIMATIONS
     this.initAnimations();
   }
@@ -23,53 +24,107 @@ export class Player extends Actor {
     }
     if (this.keyW?.isDown) {
       this.body.velocity.y = -110;
-      this.anims.play("back-walk", true);
     }
     if (this.keyA?.isDown) {
       this.body.velocity.x = -110;
-      //this.getBody().setOffset(48, 15);
-      this.anims.play("left-walk", true);
+    }
+    if (this.keyA?.isDown && this.keyS?.isDown) {
+      this.body.velocity.x = -110;
     }
     if (this.keyS?.isDown) {
       this.body.velocity.y = 110;
-      this.anims.play("front-walk", true);
     }
     if (this.keyD?.isDown) {
       this.body.velocity.x = 110;
-      //dthis.getBody().setOffset(15, 15);
+    }
+
+    if (this.keyW?.isDown && this.keyD?.isDown) {
+      this.anims.play("back-right", true);
+    }
+    if (this.keyW?.isDown && this.keyA?.isDown) {
+      this.anims.play("back-left", true);
+    }
+    if (this.keyW?.isDown && !this.keyA?.isDown && !this.keyD?.isDown) {
+      this.anims.play("back-walk", true);
+    }
+    if (this.keyS?.isDown && this.keyD?.isDown) {
+      this.anims.play("front-right", true);
+    }
+    if (this.keyS?.isDown && this.keyA?.isDown) {
+      this.anims.play("front-left", true);
+    }
+    if (this.keyS?.isDown && !this.keyA?.isDown && !this.keyD?.isDown) {
+      this.anims.play("front-walk", true);
+    }
+    if (this.keyD?.isDown && !this.keyW?.isDown && !this.keyS?.isDown) {
       this.anims.play("right-walk", true);
+    }
+    if (this.keyA?.isDown && !this.keyW?.isDown && !this.keyS?.isDown) {
+      this.anims.play("left-walk", true);
     }
   }
 
   private initAnimations(): void {
     this.scene.anims.create({
       key: "front-walk",
-      frames: this.scene.anims.generateFrameNames("a-astronaut", {
-        prefix: "front-walk-",
+      frames: this.scene.anims.generateFrameNames("astronaut-atlas", {
+        prefix: "astronaut-front-walk-",
+        frames: [1, 0, 2, 0],
+      }),
+      frameRate: 8,
+    });
+    this.scene.anims.create({
+      key: "front-left",
+      frames: this.scene.anims.generateFrameNames("astronaut-atlas", {
+        prefix: "astronaut-front-left-",
+        frames: [1, 0, 2, 0],
+      }),
+      frameRate: 8,
+    });
+    this.scene.anims.create({
+      key: "front-right",
+      frames: this.scene.anims.generateFrameNames("astronaut-atlas", {
+        prefix: "astronaut-front-right-",
+        frames: [1, 0, 2, 0],
+      }),
+      frameRate: 8,
+    });
+    this.scene.anims.create({
+      key: "back-right",
+      frames: this.scene.anims.generateFrameNames("astronaut-atlas", {
+        prefix: "astronaut-back-right-",
+        frames: [1, 0, 2, 0],
+      }),
+      frameRate: 8,
+    });
+    this.scene.anims.create({
+      key: "back-left",
+      frames: this.scene.anims.generateFrameNames("astronaut-atlas", {
+        prefix: "astronaut-back-left-",
         frames: [1, 0, 2, 0],
       }),
       frameRate: 8,
     });
     this.scene.anims.create({
       key: "back-walk",
-      frames: this.scene.anims.generateFrameNames("a-astronaut", {
-        prefix: "back-walk-",
+      frames: this.scene.anims.generateFrameNames("astronaut-atlas", {
+        prefix: "astronaut-back-walk-",
         frames: [1, 0, 2, 0],
       }),
       frameRate: 8,
     });
     this.scene.anims.create({
       key: "left-walk",
-      frames: this.scene.anims.generateFrameNames("a-astronaut", {
-        prefix: "left-walk-",
+      frames: this.scene.anims.generateFrameNames("astronaut-atlas", {
+        prefix: "astronaut-left-walk-",
         frames: [1, 0, 2, 0],
       }),
       frameRate: 8,
     });
     this.scene.anims.create({
       key: "right-walk",
-      frames: this.scene.anims.generateFrameNames("a-astronaut", {
-        prefix: "right-walk-",
+      frames: this.scene.anims.generateFrameNames("astronaut-atlas", {
+        prefix: "astronaut-right-walk-",
         frames: [1, 0, 2, 0],
       }),
       frameRate: 8,
