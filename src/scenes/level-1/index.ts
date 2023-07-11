@@ -27,7 +27,7 @@ export class Level1 extends Scene {
       this.map.filterObjects("Capsules", (obj) => obj.name === "CapsulePoint")
     );
     this.capsules = capsulePoints.map((chestPoint) =>
-      this.physics.add.sprite(chestPoint.x, chestPoint.y, "tiles_spr", 3)
+      this.physics.add.sprite(chestPoint.x, chestPoint.y, "map-objects", 3)
     );
     this.capsules.forEach((capsule) => {
       this.physics.add.overlap(this.player, capsule, (obj1, obj2) => {
@@ -39,7 +39,7 @@ export class Level1 extends Scene {
     this.anims.create({
       key: "capsule-idle",
       frames: this.anims.generateFrameNames("map-objects", {
-        frames: [3, 0, 1, 4, 1, 0],
+        frames: [3, 3, 0, 1, 1, 4, 1, 1, 0],
       }),
       frameRate: 8,
       repeat: -1,
