@@ -12,7 +12,7 @@ export class Player extends Actor {
     this.keyS = this.scene?.input?.keyboard?.addKey("S");
     this.keyD = this.scene?.input?.keyboard?.addKey("D");
     // PHYSICS
-    this.getBody().setSize(32, 32, true);
+    this.getBody().setSize(24, 32, true);
     //this.setDebug(true, false, 1);
     // ANIMATIONS
     this.initAnimations();
