@@ -114,15 +114,58 @@
       "id": 3,
       "name": "Rocks",
       "opacity": 1,
+      "properties": [
+        {
+          "name": "collides",
+          "type": "bool",
+          "value": true
+        }
+      ],
       "type": "tilelayer",
       "visible": true,
       "width": 30,
       "x": 0,
       "y": 0
+    },
+    {
+      "draworder": "topdown",
+      "id": 4,
+      "name": "Capsules",
+      "objects": [
+        {
+          "height": 0,
+          "id": 1,
+          "name": "CapsulePoint",
+          "point": true,
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 0,
+          "x": 398,
+          "y": 247
+        },
+        {
+          "height": 0,
+          "id": 2,
+          "name": "CapsulePoint",
+          "point": true,
+          "rotation": 0,
+          "type": "",
+          "visible": true,
+          "width": 0,
+          "x": 261,
+          "y": 63
+        }
+      ],
+      "opacity": 1,
+      "type": "objectgroup",
+      "visible": true,
+      "x": 0,
+      "y": 0
     }
   ],
-  "nextlayerid": 4,
-  "nextobjectid": 1,
+  "nextlayerid": 5,
+  "nextobjectid": 3,
   "orientation": "orthogonal",
   "renderorder": "right-down",
   "tiledversion": "1.10.1",
@@ -493,6 +536,19 @@
         }
       ],
       "tilewidth": 16
+    },
+    {
+      "columns": 3,
+      "firstgid": 36,
+      "image": "../tiles/alien-objects.png",
+      "imageheight": 96,
+      "imagewidth": 96,
+      "margin": 0,
+      "name": "alien-objects",
+      "spacing": 0,
+      "tilecount": 9,
+      "tileheight": 32,
+      "tilewidth": 32
     }
   ],
   "tilewidth": 16,
