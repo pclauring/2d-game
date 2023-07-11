@@ -27,6 +27,10 @@ export class LoadingScene extends Scene {
       "martian-landscape",
       "tilemaps/json/martian-landscape.json"
     );
+    this.load.spritesheet("map-objects", "tilemaps/tiles/alien-objects.png", {
+      frameWidth: 32,
+      frameHeight: 32,
+    });
   }
   create(): void {
     this.scene.start("level-1-scene");
