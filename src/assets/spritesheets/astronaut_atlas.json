@@ -1,0 +1,593 @@
+{
+  "frames": [
+    {
+      "filename": "astronaut-back-attack-3",
+      "frame": {
+        "w": 24,
+        "h": 39,
+        "x": 0,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-attack-6",
+      "frame": {
+        "w": 25,
+        "h": 39,
+        "x": 24,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-attack-5",
+      "frame": {
+        "w": 26,
+        "h": 38,
+        "x": 0,
+        "y": 39
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-attack-3",
+      "frame": {
+        "w": 23,
+        "h": 38,
+        "x": 26,
+        "y": 39
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-attack-2",
+      "frame": {
+        "w": 27,
+        "h": 37,
+        "x": 49,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-attack-2",
+      "frame": {
+        "w": 28,
+        "h": 37,
+        "x": 76,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-attack-5",
+      "frame": {
+        "w": 22,
+        "h": 35,
+        "x": 49,
+        "y": 37
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-attack-6",
+      "frame": {
+        "w": 21,
+        "h": 34,
+        "x": 71,
+        "y": 37
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-right-0",
+      "frame": {
+        "w": 21,
+        "h": 32,
+        "x": 0,
+        "y": 77
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-walk-1",
+      "frame": {
+        "w": 21,
+        "h": 32,
+        "x": 21,
+        "y": 77
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-right-1",
+      "frame": {
+        "w": 23,
+        "h": 32,
+        "x": 42,
+        "y": 77
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-right-2",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 65,
+        "y": 72
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-walk-0",
+      "frame": {
+        "w": 22,
+        "h": 32,
+        "x": 104,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-walk-1",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 104,
+        "y": 32
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-walk-2",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 85,
+        "y": 71
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-0",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 105,
+        "y": 64
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-1",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 0,
+        "y": 109
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-2",
+      "frame": {
+        "w": 30,
+        "h": 32,
+        "x": 18,
+        "y": 109
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-3",
+      "frame": {
+        "w": 30,
+        "h": 32,
+        "x": 48,
+        "y": 109
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-4",
+      "frame": {
+        "w": 24,
+        "h": 32,
+        "x": 78,
+        "y": 104
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-5",
+      "frame": {
+        "w": 24,
+        "h": 32,
+        "x": 102,
+        "y": 103
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-6",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 126,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-walk-0",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 126,
+        "y": 32
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-walk-1",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 126,
+        "y": 64
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-walk-2",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 126,
+        "y": 96
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-right-walk-0",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 126,
+        "y": 128
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-right-walk-1",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 0,
+        "y": 141
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-right-walk-2",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 18,
+        "y": 141
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-attack-0",
+      "frame": {
+        "w": 29,
+        "h": 32,
+        "x": 36,
+        "y": 141
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-attack-1",
+      "frame": {
+        "w": 30,
+        "h": 32,
+        "x": 65,
+        "y": 141
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-attack-4",
+      "frame": {
+        "w": 28,
+        "h": 32,
+        "x": 95,
+        "y": 136
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-left-0",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 144,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-left-1",
+      "frame": {
+        "w": 22,
+        "h": 32,
+        "x": 164,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-left-2",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 144,
+        "y": 32
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-right-0",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 164,
+        "y": 32
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-right-1",
+      "frame": {
+        "w": 22,
+        "h": 32,
+        "x": 144,
+        "y": 64
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-right-2",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 166,
+        "y": 64
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-walk-0",
+      "frame": {
+        "w": 22,
+        "h": 32,
+        "x": 144,
+        "y": 96
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-walk-2",
+      "frame": {
+        "w": 21,
+        "h": 32,
+        "x": 144,
+        "y": 128
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-attack-0",
+      "frame": {
+        "w": 29,
+        "h": 32,
+        "x": 0,
+        "y": 173
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-attack-1",
+      "frame": {
+        "w": 28,
+        "h": 32,
+        "x": 29,
+        "y": 173
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-attack-4",
+      "frame": {
+        "w": 25,
+        "h": 32,
+        "x": 57,
+        "y": 173
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-left-0",
+      "frame": {
+        "w": 21,
+        "h": 32,
+        "x": 165,
+        "y": 128
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-left-1",
+      "frame": {
+        "w": 23,
+        "h": 32,
+        "x": 82,
+        "y": 173
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-left-2",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 166,
+        "y": 96
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "meta": {
+    "description": "Atlas generado con Atlas Packer Gamma V2",
+    "web": "https://gammafp.github.io/atlas-packer-phaser/"
+  }
+}
