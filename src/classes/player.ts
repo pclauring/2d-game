@@ -48,6 +48,9 @@ export class Player extends Actor {
         case PlayerDirection.WEST:
           this.anims.play("left-attack", true);
           break;
+        case PlayerDirection.EAST:
+          this.anims.play("right-attack", true);
+          break;
 
         default:
           break;
@@ -55,14 +58,18 @@ export class Player extends Actor {
     }
     if (this.keyW?.isDown && this.keyD?.isDown) {
       this.getBody().setOffset(-1, 0);
-      this.anims.play("back-right", true);
+      this.keySpace?.isDown
+        ? this.anims.play("back-attack", true)
+        : this.anims.play("back-right", true);
       this.body.velocity.y = -78;
       this.body.velocity.x = 78;
       this.lastDirection = PlayerDirection.NORTHEAST;
     }
     if (this.keyW?.isDown && this.keyA?.isDown) {
       this.getBody().setOffset(-1, 0);
-      this.anims.play("back-left", true);
+      this.keySpace?.isDown
+        ? this.anims.play("back-attack", true)
+        : this.anims.play("back-left", true);
       this.body.velocity.y = -78;
       this.body.velocity.x = -78;
       this.lastDirection = PlayerDirection.NORTHWEST;
@@ -77,21 +84,24 @@ export class Player extends Actor {
     }
     if (this.keyS?.isDown && this.keyD?.isDown) {
       this.getBody().setOffset(-1, 0);
-      this.anims.play("front-right", true);
+      this.keySpace?.isDown
+        ? this.anims.play("front-attack", true)
+        : this.anims.play("front-right", true);
       this.body.velocity.y = 78;
       this.body.velocity.x = 78;
       this.lastDirection = PlayerDirection.SOUTHEAST;
     }
     if (this.keyS?.isDown && this.keyA?.isDown) {
       this.getBody().setOffset(-1, 0);
-      this.anims.play("front-left", true);
+      this.keySpace?.isDown
+        ? this.anims.play("front-attack", true)
+        : this.anims.play("front-left", true);
       this.body.velocity.y = 78;
       this.body.velocity.x = -78;
       this.lastDirection = PlayerDirection.SOUTHWEST;
     }
     if (this.keyS?.isDown && !this.keyA?.isDown && !this.keyD?.isDown) {
       this.getBody().setOffset(-1, 0);
-      this.keySpace?.isDown;
       this.keySpace?.isDown
         ? this.anims.play("front-attack", true)
         : this.anims.play("front-walk", true);
@@ -100,7 +110,9 @@ export class Player extends Actor {
     }
     if (this.keyD?.isDown && !this.keyW?.isDown && !this.keyS?.isDown) {
       this.getBody().setOffset(-1, 0);
-      this.anims.play("right-walk", true);
+      this.keySpace?.isDown
+        ? this.anims.play("right-attack", true)
+        : this.anims.play("right-walk", true);
       this.body.velocity.x = 110;
       this.lastDirection = PlayerDirection.EAST;
     }
@@ -135,6 +147,14 @@ export class Player extends Actor {
       key: "left-attack",
       frames: this.scene.anims.generateFrameNames("astronaut-atlas", {
         prefix: "astronaut-left-attack-",
+        frames: [1, 2, 3, 4, 5, 6, 0, 0],
+      }),
+      frameRate: 8,
+    });
+    this.scene.anims.create({
+      key: "right-attack",
+      frames: this.scene.anims.generateFrameNames("astronaut-atlas", {
+        prefix: "astronaut-right-attack-",
         frames: [1, 2, 3, 4, 5, 6, 0, 0],
       }),
       frameRate: 8,

@@ -105,181 +105,12 @@
       }
     },
     {
-      "filename": "astronaut-front-right-0",
-      "frame": {
-        "w": 21,
-        "h": 32,
-        "x": 0,
-        "y": 77
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-back-walk-1",
-      "frame": {
-        "w": 21,
-        "h": 32,
-        "x": 21,
-        "y": 77
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-front-right-1",
-      "frame": {
-        "w": 23,
-        "h": 32,
-        "x": 42,
-        "y": 77
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-front-right-2",
-      "frame": {
-        "w": 20,
-        "h": 32,
-        "x": 65,
-        "y": 72
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-front-walk-0",
-      "frame": {
-        "w": 22,
-        "h": 32,
-        "x": 104,
-        "y": 0
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-front-walk-1",
-      "frame": {
-        "w": 20,
-        "h": 32,
-        "x": 104,
-        "y": 32
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-front-walk-2",
-      "frame": {
-        "w": 20,
-        "h": 32,
-        "x": 85,
-        "y": 71
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-left-attack-0",
-      "frame": {
-        "w": 18,
-        "h": 32,
-        "x": 105,
-        "y": 64
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-left-attack-1",
-      "frame": {
-        "w": 18,
-        "h": 32,
-        "x": 0,
-        "y": 109
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-left-attack-2",
+      "filename": "astronaut-right-attack-2",
       "frame": {
         "w": 30,
         "h": 32,
-        "x": 18,
-        "y": 109
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-left-attack-3",
-      "frame": {
-        "w": 30,
-        "h": 32,
-        "x": 48,
-        "y": 109
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-left-attack-4",
-      "frame": {
-        "w": 24,
-        "h": 32,
-        "x": 78,
-        "y": 104
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-left-attack-5",
-      "frame": {
-        "w": 24,
-        "h": 32,
-        "x": 102,
-        "y": 103
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-left-attack-6",
-      "frame": {
-        "w": 18,
-        "h": 32,
-        "x": 126,
-        "y": 0
+        "x": 0,
+        "y": 77
       },
       "anchor": {
         "x": 0.5,
@@ -291,8 +122,8 @@
       "frame": {
         "w": 18,
         "h": 32,
-        "x": 126,
-        "y": 32
+        "x": 30,
+        "y": 77
       },
       "anchor": {
         "x": 0.5,
@@ -300,12 +131,12 @@
       }
     },
     {
-      "filename": "astronaut-left-walk-1",
+      "filename": "astronaut-right-attack-3",
       "frame": {
-        "w": 18,
+        "w": 30,
         "h": 32,
-        "x": 126,
-        "y": 64
+        "x": 48,
+        "y": 77
       },
       "anchor": {
         "x": 0.5,
@@ -313,12 +144,38 @@
       }
     },
     {
-      "filename": "astronaut-left-walk-2",
+      "filename": "astronaut-right-attack-4",
+      "frame": {
+        "w": 24,
+        "h": 32,
+        "x": 78,
+        "y": 71
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-right-attack-5",
+      "frame": {
+        "w": 24,
+        "h": 32,
+        "x": 104,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-right-attack-6",
       "frame": {
         "w": 18,
         "h": 32,
-        "x": 126,
-        "y": 96
+        "x": 92,
+        "y": 37
       },
       "anchor": {
         "x": 0.5,
@@ -330,8 +187,8 @@
       "frame": {
         "w": 18,
         "h": 32,
-        "x": 126,
-        "y": 128
+        "x": 110,
+        "y": 32
       },
       "anchor": {
         "x": 0.5,
@@ -343,8 +200,8 @@
       "frame": {
         "w": 18,
         "h": 32,
-        "x": 0,
-        "y": 141
+        "x": 110,
+        "y": 64
       },
       "anchor": {
         "x": 0.5,
@@ -356,8 +213,8 @@
       "frame": {
         "w": 18,
         "h": 32,
-        "x": 18,
-        "y": 141
+        "x": 0,
+        "y": 109
       },
       "anchor": {
         "x": 0.5,
@@ -369,8 +226,8 @@
       "frame": {
         "w": 29,
         "h": 32,
-        "x": 36,
-        "y": 141
+        "x": 18,
+        "y": 109
       },
       "anchor": {
         "x": 0.5,
@@ -382,112 +239,8 @@
       "frame": {
         "w": 30,
         "h": 32,
-        "x": 65,
-        "y": 141
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-back-attack-4",
-      "frame": {
-        "w": 28,
-        "h": 32,
-        "x": 95,
-        "y": 136
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-back-left-0",
-      "frame": {
-        "w": 20,
-        "h": 32,
-        "x": 144,
-        "y": 0
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-back-left-1",
-      "frame": {
-        "w": 22,
-        "h": 32,
-        "x": 164,
-        "y": 0
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-back-left-2",
-      "frame": {
-        "w": 20,
-        "h": 32,
-        "x": 144,
-        "y": 32
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-back-right-0",
-      "frame": {
-        "w": 20,
-        "h": 32,
-        "x": 164,
-        "y": 32
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-back-right-1",
-      "frame": {
-        "w": 22,
-        "h": 32,
-        "x": 144,
-        "y": 64
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-back-right-2",
-      "frame": {
-        "w": 20,
-        "h": 32,
-        "x": 166,
-        "y": 64
-      },
-      "anchor": {
-        "x": 0.5,
-        "y": 0.5
-      }
-    },
-    {
-      "filename": "astronaut-back-walk-0",
-      "frame": {
-        "w": 22,
-        "h": 32,
-        "x": 144,
-        "y": 96
+        "x": 47,
+        "y": 109
       },
       "anchor": {
         "x": 0.5,
@@ -499,8 +252,8 @@
       "frame": {
         "w": 21,
         "h": 32,
-        "x": 144,
-        "y": 128
+        "x": 77,
+        "y": 109
       },
       "anchor": {
         "x": 0.5,
@@ -512,8 +265,8 @@
       "frame": {
         "w": 29,
         "h": 32,
-        "x": 0,
-        "y": 173
+        "x": 98,
+        "y": 103
       },
       "anchor": {
         "x": 0.5,
@@ -525,8 +278,47 @@
       "frame": {
         "w": 28,
         "h": 32,
-        "x": 29,
-        "y": 173
+        "x": 128,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-attack-4",
+      "frame": {
+        "w": 28,
+        "h": 32,
+        "x": 128,
+        "y": 32
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-left-0",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 128,
+        "y": 64
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-left-1",
+      "frame": {
+        "w": 22,
+        "h": 32,
+        "x": 127,
+        "y": 96
       },
       "anchor": {
         "x": 0.5,
@@ -538,8 +330,86 @@
       "frame": {
         "w": 25,
         "h": 32,
-        "x": 57,
-        "y": 173
+        "x": 0,
+        "y": 141
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-left-2",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 25,
+        "y": 141
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-right-0",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 45,
+        "y": 141
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-right-1",
+      "frame": {
+        "w": 22,
+        "h": 32,
+        "x": 65,
+        "y": 141
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-right-2",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 87,
+        "y": 141
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-walk-0",
+      "frame": {
+        "w": 22,
+        "h": 32,
+        "x": 107,
+        "y": 135
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-back-walk-1",
+      "frame": {
+        "w": 21,
+        "h": 32,
+        "x": 129,
+        "y": 128
       },
       "anchor": {
         "x": 0.5,
@@ -551,8 +421,8 @@
       "frame": {
         "w": 21,
         "h": 32,
-        "x": 165,
-        "y": 128
+        "x": 148,
+        "y": 64
       },
       "anchor": {
         "x": 0.5,
@@ -564,8 +434,8 @@
       "frame": {
         "w": 23,
         "h": 32,
-        "x": 82,
-        "y": 173
+        "x": 149,
+        "y": 96
       },
       "anchor": {
         "x": 0.5,
@@ -577,8 +447,229 @@
       "frame": {
         "w": 20,
         "h": 32,
-        "x": 166,
+        "x": 156,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-right-0",
+      "frame": {
+        "w": 21,
+        "h": 32,
+        "x": 156,
+        "y": 32
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-right-2",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 150,
+        "y": 128
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-right-1",
+      "frame": {
+        "w": 23,
+        "h": 32,
+        "x": 0,
+        "y": 173
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-walk-0",
+      "frame": {
+        "w": 22,
+        "h": 32,
+        "x": 23,
+        "y": 173
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-walk-1",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 45,
+        "y": 173
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-front-walk-2",
+      "frame": {
+        "w": 20,
+        "h": 32,
+        "x": 65,
+        "y": 173
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-0",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 85,
+        "y": 173
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-2",
+      "frame": {
+        "w": 30,
+        "h": 32,
+        "x": 103,
+        "y": 173
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-1",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 133,
+        "y": 160
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-3",
+      "frame": {
+        "w": 30,
+        "h": 32,
+        "x": 169,
+        "y": 64
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-4",
+      "frame": {
+        "w": 24,
+        "h": 32,
+        "x": 176,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-5",
+      "frame": {
+        "w": 24,
+        "h": 32,
+        "x": 177,
+        "y": 32
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-attack-6",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 151,
+        "y": 160
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-walk-1",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 169,
+        "y": 160
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-left-walk-2",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 170,
+        "y": 128
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-right-attack-0",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 172,
         "y": 96
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "astronaut-right-attack-1",
+      "frame": {
+        "w": 18,
+        "h": 32,
+        "x": 188,
+        "y": 128
       },
       "anchor": {
         "x": 0.5,
